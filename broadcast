@@ -32,8 +32,8 @@ def _broadcast_buttons(bot_username: str | None):
     support_url = config.SUPPORT_CHAT or config.SUPPORT_CHANNEL or "https://t.me/"
     if support_url.startswith("@"): support_url = f"https://t.me/{support_url[1:]}"
     return types.InlineKeyboardMarkup([
-        [types.InlineKeyboardButton("ㅤㅤㅤ𝚲𝛛𝛛 𝚳𝛆 𝛃𝚊𝚋𝚢ㅤㅤㅤ", url=add_url)],
-        [types.InlineKeyboardButton("ㅤㅤㅤㅤ𝐒𝛖𝛒𝛒𝛐𝚛𝛕ㅤㅤㅤㅤ", url=support_url)],
+        [types.InlineKeyboardButton("ㅤㅤㅤㅤㅤㅤ𝚲𝛛𝛛 𝚳𝛆 𝛃𝚊𝚋𝚢ㅤㅤㅤㅤㅤㅤ", url=add_url)],
+        [types.InlineKeyboardButton("ㅤㅤㅤㅤㅤㅤㅤㅤ𝐒𝛖𝛒𝛒𝛐𝚛𝛕ㅤㅤㅤㅤㅤㅤㅤ", url=support_url)],
     ])
 
 
